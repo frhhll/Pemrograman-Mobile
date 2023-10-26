@@ -2,15 +2,6 @@
 
 A new Flutter project. basically it's a Ui of musicApp contain 2 screen. here i used state management as getX. 
 
-## Getting Started
+# todo list
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Add features so that this app can run properly
