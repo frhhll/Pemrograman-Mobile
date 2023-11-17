@@ -402,6 +402,20 @@ class _HomePageState extends State<HomePage> {
                         AppColors.bottomNavigationIconColor, BlendMode.srcIn),
                   ),
                   label: ''),
+               BottomNavigationBarItem(
+                icon: GestureDetector(
+                  onTap: () {
+                    AuthController().logout();
+                    Get.offAll(LoginPage());
+                  },
+                  child: const Icon(
+                    Icons.exit_to_app,
+                    size: 30,
+                    color: AppColors.bottomNavigationIconColor,
+                  ),
+                ),
+                label: '',
+              ),
             ],
           ),
         ),
